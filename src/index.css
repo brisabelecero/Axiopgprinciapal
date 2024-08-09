@@ -49,3 +49,66 @@
     margin-top: 10%;
     font-family: "Poppins", sans-serif;
 }
+
+.mission{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.txt-container{
+    text-align: justify;
+    width: 40%;
+}
+
+.mission h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: #4285F4;
+    font-family: "Poppins", sans-serif;
+}
+
+.mission p{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.vision{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.txt-container{
+    text-align: justify;
+    width: 40%;
+}
+
+.vision h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: #4285F4;
+    font-family: "Poppins", sans-serif;
+}
+
+.vision p{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.values{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.values h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: #4285F4;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
