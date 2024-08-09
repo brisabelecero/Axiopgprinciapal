@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 .banner-comp{
-    height: 400px; /* Ajusta la altura según tus necesidades */
+    height: 400px;
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
-    align-items: center;/* Evita que la imagen se repita */
+    align-items: center;
     z-index: 1;
     background: #bab8b8;
 }
