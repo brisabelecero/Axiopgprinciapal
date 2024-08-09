@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+.banner-comp{
+    height: 400px; /* Ajusta la altura según tus necesidades */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;/* Evita que la imagen se repita */
+    z-index: 1;
+    background: #bab8b8;
+}
+
+.banner-title{
+    color: #fff;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
