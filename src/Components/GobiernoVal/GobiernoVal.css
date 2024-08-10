@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+.section-gob-a{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.section-gob-a p{
+    width: 40%;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 2%;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-gob-b{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 10%;
+}
+
+.section-gob-b p{
+    width: 40%;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 2%;
+    font-family: "Poppins", sans-serif;
+}
+
+.gob-distinction-blue{
+    color: #4285F4;
+}
+
+.gob-distinction{
+    color: #9AD74D;
+}

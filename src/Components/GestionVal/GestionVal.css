@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+.section-gestion-a{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.section-gestion-a p{
+    width: 40%;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-gestion-b{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.section-gestion-b p{
+    width: 40%;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-gestion-c{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.section-gestion-c p{
+    width: 40%;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 2%;
+}
+
+.gestion-distinction{
+    color: #9AD74D;
+}
