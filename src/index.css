@@ -112,3 +112,24 @@
     font-family: "Poppins", sans-serif;
     text-align: center;
 }
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.btn-certif{
+    background: none;
+    border-width: 0;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-container{
+    margin-top: 5%;
+}

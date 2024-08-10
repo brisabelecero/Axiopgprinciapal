@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+.certif-section-a{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.certif-section-a p{
+    width: 40%;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.certif-section-b{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.certif-section-b p{
+    width: 100%;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.certif-distinction{
+    color: #9AD74D;
+}
+
+.list-certif{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.list-certif li{
+    font-weight: 700;
+    font-size: 16px;
+    list-style: none;
+    width: 45%;
+    margin: 10px;
+    text-align: center;
+    color: #4285F4;
+}
+
+.certif-section-c{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.certif-section-c p{
+    width: 50%;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 5%;
+    font-family: "Poppins", sans-serif;
+}
+
+.certif-distinction-blue{
+    color: #4285F4;
+}
+
+.certif-section-d{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+
+.certif-section-d p{
+    width: 65%;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.certif-section-e{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.certif-section-e p{
+    width: 50%;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
