@@ -16,10 +16,22 @@ const certifications = () => {
     <div>
       <BannerComp title={"Certificaciones"} image={"../assets/images/certif-1.png"} />
       <div className="btn-container">
-        <button className="btn-certif" onClick={() => handleButtonClick('educacionConValores')}>Educación con Valores</button>
-        <button className="btn-certif" onClick={() => handleButtonClick('gobiernoConValores')}>Gobierno con Valores</button>
-        <button className="btn-certif" onClick={() => handleButtonClick('gestionPorValores')}>Gestión por Valores</button>
-        <button className="btn-certif" onClick={() => handleButtonClick('certificacionIndividual')}>Certificación Individual</button>
+        <button className={`btn-certif ${activeSection === 'educacionConValores' ? 'active' : ''}`}
+          onClick={() => handleButtonClick('educacionConValores')}>
+          Educación con Valores
+        </button>
+        <button className={`btn-certif ${activeSection === 'gobiernoConValores' ? 'active' : ''}`}
+        onClick={() => handleButtonClick('gobiernoConValores')}>
+        Gobierno con Valores
+        </button>
+        <button className={`btn-certif ${activeSection === 'gestionPorValores' ? 'active' : ''}`}
+        onClick={() => handleButtonClick('gestionPorValores')}>
+        Gestión por Valores
+        </button>
+        <button className={`btn-certif ${activeSection === 'certificacionIndividual' ? 'active' : ''}`}
+        onClick={() => handleButtonClick('certificacionIndividual')}>
+        Certificación Individual
+        </button>
       </div>
       <div className="section-container">
         {activeSection === 'educacionConValores' && <EducacionVal />}
