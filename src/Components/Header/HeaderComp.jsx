@@ -1,12 +1,13 @@
 import React from 'react'
 import './Header.css'
 import { Link } from 'react-router-dom'
+import Logo from '../../assets/images/AXIO.png'
 
 const HeaderComp = () => {
     return (
         <header className="header">
             <Link to="/">
-              <img src="../src/assets/images/AXIO.png" alt="" className="logo"/>
+              <img src={Logo} alt="" className="logo" />
             </Link>
             <nav className="navbar">
                 <Link to="/">Inicio</Link>
