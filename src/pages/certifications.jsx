@@ -4,6 +4,7 @@ import EducacionVal from '../Components/EducacionVal/EducacionVal'
 import GobiernoVal from '../Components/GobiernoVal/GobiernoVal'
 import GestionVal from '../Components/GestionVal/GestionVal'
 import CertifVal from '../Components/CertifVal/CertifVal'
+import ImgCertif1 from '../assets/images/certif-1.png'
 
 const certifications = () => {
   const [activeSection, setActiveSection] = useState('educacionConValores')
@@ -14,7 +15,7 @@ const certifications = () => {
 
   return (
     <div>
-      <BannerComp title={"Certificaciones"} image={"../src/assets/images/certif-1.png"} />
+      <BannerComp title={"Certificaciones"} image={ImgCertif1} />
       <div className="btn-container">
         <button className={`btn-certif ${activeSection === 'educacionConValores' ? 'active' : ''}`}
           onClick={() => handleButtonClick('educacionConValores')}>

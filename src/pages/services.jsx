@@ -1,10 +1,11 @@
 import React from 'react'
 import BannerComp from '../Components/BannerComp/BannerComp'
+import ImgService1 from '../assets/images/serv1.png'
 
 const services = () => {
   return (
     <div>
-      <BannerComp title={"Servicios"} image={"../src/assets/images/serv.png"}/>
+      <BannerComp title={"Servicios"} image={ImgService1}/>
       <section className="service-section-a">
         <h2>Diagnóstico de cultura de Integridad</h2>
         <div className="container-services-a">

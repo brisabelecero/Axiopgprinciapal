@@ -1,10 +1,11 @@
 import React from 'react'
 import BannerComp from '../Components/BannerComp/BannerComp'
+import ImgDigital1 from '../assets/images/eco.jpg'
 
 const digital = () => {
   return (
     <div>
-      <BannerComp title={"Ecosistema Digital"} image={"../src/assets/images/eco.jpg"} />
+      <BannerComp title={"Ecosistema Digital"} image={ImgDigital1} />
       <section className="digital-section-a">
         <p>El <span className="distinction-blue"> Ecosistema digital Axio </span> es un conjunto de recursos y estrategias que permiten la formación en:</p>
         <div className="card-digital-container">

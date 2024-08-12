@@ -1,10 +1,11 @@
 import React from 'react'
 import BannerComp from '../Components/BannerComp/BannerComp'
+import ImgContact from '../assets/images/contact.jpg'
 
 const contact = () => {
   return (
     <div>
-      <BannerComp title={"Contacto"} image={"../src/assets/images/contact.jpg"}/>
+      <BannerComp title={"Contacto"} image={ImgContact}/>
     </div>
   )
 }
