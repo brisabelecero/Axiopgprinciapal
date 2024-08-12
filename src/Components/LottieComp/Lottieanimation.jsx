@@ -1,5 +1,5 @@
-import Lottie from "react-lottie";
-export function Lottieanimacion({ alto, ancho, animacion}){
+import Lottie from "react-lottie"
+export function LottieAnimacion({ alto, ancho, animacion}){
     const defaultOptions = {
         loop: true,
         autoplay: true,
