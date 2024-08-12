@@ -1,13 +1,13 @@
 import React from 'react'
 import BannerComp from '../Components/BannerComp/BannerComp'
-import ImgQuiens from '../assets/images/quienes-1.jpg'
+import ImgQuienes from '../assets/images/quienes-1.jpg'
 import ImgMission from '../assets/images/ImgMision.jpg'
 import ImgVision from '../assets/images/ImgVision.jpg'
 
 const about = () => {
   return (
     <div>
-      <BannerComp title={"¿Quíenes Somos?"} image={ImgQuiens} />
+      <BannerComp title={"¿Quíenes Somos?"} image={ImgQuienes} />
       <section className='mission'>        
         <div className="txt-container-a">
           <h2>Misión</h2>

@@ -37,30 +37,47 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 60%;
+    margin-top: 10px;
     margin: 0 auto;
 }
 
 .list-certif li{
+    display: flex;
     font-weight: 700;
     font-size: 16px;
     list-style: none;
     width: 45%;
     margin: 10px;
-    text-align: center;
     color: #4285F4;
+    text-align: justify;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.img-list{
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+    margin-bottom: 10px;
 }
 
 .certif-section-c{
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
+    gap: 5%;
     margin-left: 10%;
-    margin-right: 10%;
     margin-top: 5%;
 }
 
-.certif-section-c p{
-    width: 50%;
+.certif-container-a{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 10%;
+    width: 53%;
+}
+
+.certif-container-a p{
     text-align: justify;
     font-weight: 500;
     font-size: 16px;
