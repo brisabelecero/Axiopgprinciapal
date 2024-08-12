@@ -1,11 +1,14 @@
 import React from 'react'
 import BannerHome from '../Components/BannerHome/BannerHome'
+import { Lottieanimacion } from '../Components/LottieComp/LottieAnimation'
+import animacion2 from '../Components/LottieComp/animations/animation2.json'
+import animacion3 from '../Components/LottieComp/animations/animation3.json'
 
 const home = () => {
   return (
     <div>
         <BannerHome />
-        <section className='home-container'>
+        <section className='home-container-a'>
           <div className='home-text'>
             <h2 className='home-title'>Fundación Axio</h2>
             <p>Es una organización sin fines de lucro fundada en 2013 que agrupa a
@@ -14,8 +17,10 @@ const home = () => {
               en coadyuvar en la creación de una mejor sociedad, libre de violencia,
               corrupción, desigualdad y discriminación.</p>
           </div>
+          <Lottieanimacion animacion={animacion2} ancho={"600px"} alto={"600px"}/>
         </section>
-        <section className='home-container'>
+        <section className='home-container-b'>
+          <Lottieanimacion animacion={animacion3} ancho={"600px"} alto={"400px"}/>
           <div className='home-text'>
             <p>Para cumplir con nuestro objetivo hemos desarrollado diversos instrumentos, 
               recursos formativos, metodologías de gestión y certificaciones que permiten hacer 

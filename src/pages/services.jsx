@@ -4,7 +4,7 @@ import BannerComp from '../Components/BannerComp/BannerComp'
 const services = () => {
   return (
     <div>
-      <BannerComp title={"Servicios"} image={"/assets/images/serv.png"}/>
+      <BannerComp title={"Servicios"} image={"../src/assets/images/serv.png"}/>
       <section className="service-section-a">
         <h2>Diagnóstico de cultura de Integridad</h2>
         <div className="container-services-a">

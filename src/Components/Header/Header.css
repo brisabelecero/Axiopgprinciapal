@@ -6,22 +6,20 @@
   box-sizing: border-box;
 }
 
-a{
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
-}
-
 .header{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
+    padding: 10px;
     background: transparent;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     z-index: 100;
+}
+
+.header a{
+  margin-left: 10%;
 }
 
 .logo{
@@ -29,11 +27,16 @@ a{
   width: 54px;
 }
 
+.navbar{
+  margin-left: 2%;
+}
+
 .navbar a{
+    text-decoration: none;
     position: relative;
     font-size: 15px;
     color: #fff;
     font-weight: 500;
-    margin-left: 20px;
+    margin-left: 40px;
     font-family: "Poppins", sans-serif;
 }

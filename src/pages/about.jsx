@@ -4,7 +4,7 @@ import BannerComp from '../Components/BannerComp/BannerComp'
 const about = () => {
   return (
     <div>
-      <BannerComp title={"¿Quíenes Somos?"} image={"../assets/images/quienes-1.jpg"} />
+      <BannerComp title={"¿Quíenes Somos?"} image={"../src/assets/images/quienes-1.jpg"} />
       <section className='mission'>
         <div className="txt-container">
           <h2>Misión</h2>

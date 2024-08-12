@@ -4,7 +4,7 @@ import BannerComp from '../Components/BannerComp/BannerComp'
 const contact = () => {
   return (
     <div>
-      <BannerComp title={"Contacto"} image={"../assets/images/contact.jpg"}/>
+      <BannerComp title={"Contacto"} image={"../src/assets/images/contact.jpg"}/>
     </div>
   )
 }

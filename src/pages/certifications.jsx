@@ -14,7 +14,7 @@ const certifications = () => {
 
   return (
     <div>
-      <BannerComp title={"Certificaciones"} image={"../assets/images/certif-1.png"} />
+      <BannerComp title={"Certificaciones"} image={"../src/assets/images/certif-1.png"} />
       <div className="btn-container">
         <button className={`btn-certif ${activeSection === 'educacionConValores' ? 'active' : ''}`}
           onClick={() => handleButtonClick('educacionConValores')}>
