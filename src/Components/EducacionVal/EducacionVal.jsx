@@ -6,6 +6,7 @@ import ImgDes from '../../assets/images/ImgDes.png'
 import ImgEmb from '../../assets/images/ImgEmb.png'
 import ImgSui from '../../assets/images/ImgSui.png'
 import ImgBaj from '../../assets/images/ImgBaj.png'
+import ImgCertif1 from '../../assets/images/ImgCertif1.png'
 import { LottieAnim } from '../LottieComp/LottieAnim'
 import animacioncertif1 from '../LottieComp/animations/animationcertif1.json'
 import animacioncertif2 from '../LottieComp/animations/animationcertif2.json'
@@ -58,11 +59,14 @@ const EducacionVal = () => {
             <LottieAnim animacion={animacioncertif2} ancho={"432px"} alto={"432px"} />
         </section>
         <section className="certif-section-e">
-            <p>La certificación <span className="certif-distinction-blue"> “Educación con valores” </span> busca ser un motor que contribuya a la suma de voluntades 
-                y a la coordinación de las acciones bajo la implementación de una metodología de gestión escolar 
-                que logra el esfuerzo coordinado de padres, directivos y docentes para que en la escuela se hagan 
-                vida los valores en la cotidianidad.</p>
-            <p><span className="certif-distinction"> ¡Certifica a tu institución educativa! </span> </p>
+            <img src={ImgCertif1} alt="" />
+            <div className="certif-container-b">
+                <p>La certificación <span className="certif-distinction-blue"> “Educación con valores” </span> busca ser un motor que contribuya a la suma de voluntades 
+                    y a la coordinación de las acciones bajo la implementación de una metodología de gestión escolar 
+                    que logra el esfuerzo coordinado de padres, directivos y docentes para que en la escuela se hagan 
+                    vida los valores en la cotidianidad.</p>
+                <p><span className="certif-distinction"> ¡Certifica a tu institución educativa! </span> </p>
+            </div>
         </section>
     </div>
   )
