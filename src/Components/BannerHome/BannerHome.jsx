@@ -1,6 +1,6 @@
 import React from 'react'
 import './BannerHome.css'
-import { Lottieanimacion } from '../LottieComp/LottieAnimation'
+import { LottieAnim } from '../LottieComp/LottieAnim'
 import animacion1 from '../LottieComp/animations/animation1.json'
 
 const BannerHome = () => {
@@ -13,7 +13,7 @@ const BannerHome = () => {
         <button className="banner-home-btn">Descubrir</button>
       </div>
       <div>
-        <Lottieanimacion animacion={animacion1} ancho={"612.2px"} alto={"407.72px"} />
+        <LottieAnim animacion={animacion1} ancho={"612.2px"} alto={"407.72px"} />
       </div>
     </section>
   )
