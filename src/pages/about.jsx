@@ -21,7 +21,7 @@ const about = () => {
         <div className="txt-container-b">
           <h2>Visión</h2>
           <p>Para 2030 lograremos implementar nuestro ecosistema Axio, nuestra metodología de gestión basada en 
-           la integridad y nuestros diagnósticos de cultura de integridad en más de cinco países de Latinoamérica.</p>
+           la integridad y nuestros diagnósticos de cultura de integridad en más de cinco países de Latinoamérica</p>
         </div>
       </section>
       <section className='values'>
