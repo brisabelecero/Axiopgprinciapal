@@ -9,8 +9,8 @@ const home = () => {
           <div className='home-text'>
             <h2 className='home-title'>Fundación Axio</h2>
             <p>Es una organización sin fines de lucro fundada en 2013 que agrupa a
-              <span class="home-distinction"> académicos</span>,<span class="home-distinction"> investigadores</span>,
-              <span class="home-distinction"> líderes de opinión</span> y<span class="home-distinction"> personas comprometidas </span>
+              <span className="home-distinction"> académicos</span>,<span className="home-distinction"> investigadores</span>,
+              <span className="home-distinction"> líderes de opinión</span> y<span className="home-distinction"> personas comprometidas </span>
               en coadyuvar en la creación de una mejor sociedad, libre de violencia,
               corrupción, desigualdad y discriminación.</p>
           </div>

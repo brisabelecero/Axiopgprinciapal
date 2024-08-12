@@ -5,7 +5,9 @@ import { Link } from 'react-router-dom'
 const HeaderComp = () => {
     return (
         <header className="header">
-            <a href="#" className="logo">Axio</a>
+            <Link to="/">
+              <img src="../src/assets/images/AXIO.png" alt="" className="logo"/>
+            </Link>
             <nav className="navbar">
                 <Link to="/">Inicio</Link>
                 <Link to="/about">Quienes Somos</Link>

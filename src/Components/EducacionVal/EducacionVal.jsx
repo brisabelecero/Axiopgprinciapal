@@ -36,7 +36,7 @@ const EducacionVal = () => {
                 universales son la respuesta a los desafíos sociales de todos los tiempos</p>
             <p>Es fundamental también reconocer que a la importancia de la formación axiológica 
                 se ha sumado un sentido de urgencia y de acción inmediata. 
-                <span class="certif-distinction-blue"> ¡No hay tiempo que perder!</span></p>
+                <span className="certif-distinction-blue"> ¡No hay tiempo que perder!</span></p>
         </section>
         <section className="certif-section-d">
             <p>El desafío no es menor. Más allá de reconocer que es necesario fortalecer la formación 
@@ -45,11 +45,11 @@ const EducacionVal = () => {
                 certeza en el rumbo y la convicción de mantenerse en la ruta trazada.</p>
         </section>
         <section className="certif-section-e">
-            <p>La certificación <span class="certif-distinction-blue"> “Educación con valores” </span> busca ser un motor que contribuya a la suma de voluntades 
+            <p>La certificación <span className="certif-distinction-blue"> “Educación con valores” </span> busca ser un motor que contribuya a la suma de voluntades 
                 y a la coordinación de las acciones bajo la implementación de una metodología de gestión escolar 
                 que logra el esfuerzo coordinado de padres, directivos y docentes para que en la escuela se hagan 
                 vida los valores en la cotidianidad.</p>
-            <p><span class="certif-distinction"> ¡Certifica a tu institución educativa! </span> </p>
+            <p><span className="certif-distinction"> ¡Certifica a tu institución educativa! </span> </p>
         </section>
     </div>
   )
