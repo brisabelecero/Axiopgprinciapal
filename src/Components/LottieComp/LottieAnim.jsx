@@ -1,15 +1,15 @@
-import Lottie from "react-lottie"
-export function LottieAnimacion({ alto, ancho, animacion}){
+import Lottie from "react-lottie";
+export function LottieAnim ({ancho, alto, animacion}){
     const defaultOptions = {
         loop: true,
         autoplay: true,
-        animationData: animacion,
+        animationData: animacion
     }
 
     return(
         <Lottie
             options={defaultOptions}
-            height={`${alto}`}
+            height={`${alto}`} 
             width={`${ancho}`}
             isClickToPauseDisabled
         />
