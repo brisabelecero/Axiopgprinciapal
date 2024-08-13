@@ -19,13 +19,21 @@
 
 .section-gob-b{
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10%;
     margin-right: 10%;
 }
 
-.section-gob-b p{
-    width: 40%;
+.section-container-b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin-bottom: 10%;
+}
+
+.section-container-b p{
     font-weight: 500;
     font-size: 16px;
     text-align: justify;

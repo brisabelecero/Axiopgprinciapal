@@ -1,5 +1,7 @@
 import React from 'react'
 import BannerComp from '../Components/BannerComp/BannerComp'
+import { LottieAnim } from '../Components/LottieComp/LottieAnim'
+import animacioneco1 from '../Components/LottieComp/animations/animationeco1.json'
 import ImgDigital1 from '../assets/images/eco.jpg'
 
 const digital = () => {
@@ -14,6 +16,7 @@ const digital = () => {
           <card className="card-c">Habilidades Socioemocionales</card>
         </div>
         <div className="digital-container-a">
+          <LottieAnim animacion={animacioneco1} ancho={"412px"} alto={"412"} />
           <p>Consta de una <span class="distinction-blue"> aplicación para dispositivos móviles </span> con 
             múltiples recursos formativos en valores para <span className="distinction-green"> alumnos</span>, 
             <span className="distinction-green"> padres de familia</span>, <span className="distinction-green"> docentes </span>, 

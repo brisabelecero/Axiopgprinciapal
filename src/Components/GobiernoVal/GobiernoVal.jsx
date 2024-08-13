@@ -1,10 +1,14 @@
 import React from 'react'
 import './GobiernoVal.css'
+import { LottieAnim } from '../LottieComp/LottieAnim'
+import animacioncertif3 from '../LottieComp/animations/animationcertif3.json'
+
 
 const GobiernoVal = () => {
   return (
     <div>
       <section className="section-gob-a">
+        <div className="section-container-a"></div>
         <p>La principal demanda social hacia sus gobernantes 
           es el fortalecimiento de las instituciones a través 
           de la conducta ética de las personas servidoras públicas.</p>
@@ -12,10 +16,13 @@ const GobiernoVal = () => {
           las acciones más valoradas por una sociedad cansada de escándalos de abusos y deshonestidad.</p>
       </section>
       <section className="section-gob-b">
-        <p>La certificación en la norma <span class="gob-distinction-blue"> “Gobierno con Valores” </span> tiene como objetivo acreditar, 
-          reconocer y promover un modelo de gestión pública que tiene como eje la conducta íntegra 
-          de los funcionarios gubernamentales.</p>
-        <p className="gob-distinction">¡Certifica a tu institución de gobierno!</p>
+        <LottieAnim animacion={animacioncertif3} ancho={"360px"} alto={"360px"} />
+        <div className="section-container-b">
+          <p>La certificación en la norma <span class="gob-distinction-blue"> “Gobierno con Valores” </span> tiene como objetivo acreditar, 
+            reconocer y promover un modelo de gestión pública que tiene como eje la conducta íntegra 
+            de los funcionarios gubernamentales.</p>
+          <p className="gob-distinction">¡Certifica a tu institución de gobierno!</p>
+          </div>
       </section>
     </div>
   )
