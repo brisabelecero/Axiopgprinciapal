@@ -2,7 +2,10 @@ import React from 'react'
 import BannerComp from '../Components/BannerComp/BannerComp'
 import { LottieAnim } from '../Components/LottieComp/LottieAnim'
 import animacioneco1 from '../Components/LottieComp/animations/animationeco1.json'
+import animacioneco2 from '../Components/LottieComp/animations/animationeco2.json'
 import ImgDigital1 from '../assets/images/eco.jpg'
+import ImgCirPhone from '../assets/images/CirPhone.png'
+import ImgLap from '../assets/images/laptop.png'
 
 const digital = () => {
   return (
@@ -27,11 +30,13 @@ const digital = () => {
           <p>Así como de una<span className="distinction-blue"> plataforma </span>que permite la 
           implementación de un modelo de gestión basado en valores y así obtener la 
           <span className="distinction-green"> certificación </span>en la norma correspondiente.</p>
+          <LottieAnim animacion={animacioneco2} ancho={"360px"} alto={"360px"} />
         </div>
         <div className="digital-container-c">
           <h2>Aplicación Axio</h2>
           <p>En nuestra App encontrarás:</p>
           <div className="img-list-contain-a">
+            <img src={ImgCirPhone} alt="" className="img-cir-phone" />
             <ul>
               <li>Breves y significativas lecciones que favorecen la reflexión y el análisis en casos prácticos.</li>
               <li>Mensajes cotidianos que favorecen la reflexión y guían la acción para hacer vida los valores.</li>
@@ -53,6 +58,7 @@ const digital = () => {
               <li>Instrumentos para orientar las políticas de recursos humanos hacia el comportamiento ético de sus miembros.</li>
               <li>Acompañamiento para la implementación de un modelo de gestión que hace vida los valores en la cotidianidad.</li>
             </ul>
+            <img src={ImgLap} alt="" className="img-lap" />
           </div>
         </div>
       </section>
