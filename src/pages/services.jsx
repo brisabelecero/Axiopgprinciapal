@@ -1,6 +1,11 @@
 import React from 'react'
 import BannerComp from '../Components/BannerComp/BannerComp'
 import ImgService1 from '../assets/images/serv1.png'
+import { LottieAnim } from '../Components/LottieComp/LottieAnim'
+import animacionservice1 from '../Components/LottieComp/animations/animationservice1.json'
+import animacionservice2 from '../Components/LottieComp/animations/animationservice2.json'
+import animacionservice3 from '../Components/LottieComp/animations/animationservice3.json'
+
 
 const services = () => {
   return (
@@ -41,41 +46,43 @@ const services = () => {
       <section className="service-section-c">
         <h2>Formación</h2>
         <div className="container-service-b">
+          <LottieAnim animacion={animacionservice1} ancho={"400px"} alto={"346px"}/>
           <p>No es posible lograr la transformación de una entidad organizacional sin el proceso de detección 
             y sustitución de axiomas erróneos por verdaderos y eso se logra a través de procesos formativos.</p>
         </div>
         <div className="container-service-c">
           <p>La formación tiene como objetivo trasladar los principios especulativos en los que se fundamenta la ética y 
           la axiología a acciones concretas que enriquezcan la toma de decisiones en el plano personal y organizacional</p>
+          <LottieAnim animacion={animacionservice2} ancho={"500px"} alto={"329px"}/>
         </div>
       </section>
       <section className="service-section-d">
         <h2>Temas</h2>
-        <div className="card-container-temes">
-          <card></card>
-          <card></card>
-          <card></card>
-          <card></card>
-          <card></card>
-          <card></card>
-          <card></card>
-          <card></card>
-          <card></card>
-          <card></card>
-          <card></card>
-          <card></card>
-          <card></card>
-          <card></card>
-          <card></card>
-          <card></card>
-          <card></card>
-          <card></card>
-          <card></card>
-          <card></card>
-          <card></card>
-          <card></card>
-          <card></card>
-          <card></card>
+        <div className="card-container-temas">
+          <card>Sistemas Axiomaticos</card>
+          <card>La Naturaleza De Los Valores</card>
+          <card>Ética General</card>
+          <card>Ética Especial</card>
+          <card>Liderazgo Basado en Valores</card>
+          <card>Equipoes De Trabajo Con Valores</card>
+          <card>Filosofía De La Educación</card>
+          <card>Combate A La Corrupción</card>
+          <card>Prevensión De La Violencia En Entornos Escolares</card>
+          <card>Valores Y Virtudes</card>
+          <card>Inteligencia Y Valores</card>
+          <card>Valores En El Hogar</card>
+          <card>Autoestima</card>
+          <card>El Poder De La Palabra</card>
+          <card>Comunicación En El Hogar</card>
+          <card>La Naturaleza Humana</card>
+          <card>Axiología</card>
+          <card>Metafísica</card>
+          <card>Ontología</card>
+          <card>Gnoseología</card>
+          <card>Cultura Organizacional</card>
+          <card>Dirección Y Desarrollo De Equipos De Alto Rendimiento</card>
+          <card>El Papel Docente</card>
+          <card>Desarrollo De La Inteligencia</card>
         </div>
       </section>
     </div>

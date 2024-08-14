@@ -440,6 +440,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 5%;
 }
 
@@ -452,28 +453,28 @@
 
 .container-service-b{
     display: flex;
-    margin-top: 5%;
+    align-items: center;
 }
 
 .container-service-b p{
+    width: 70%;
+    margin-left: 50px;
     font-weight: 500;
     font-size: 16px;
     text-align: justify;
-    margin-left: 30%;
-    margin-right: 10%;
     font-family: "Poppins", sans-serif;
 }
 
 .container-service-c{
     display: flex;
-    margin-top: 5%;
+    align-items: center;
 }
 
 .container-service-c p{
+    width: 50%;
     font-weight: 500;
     font-size: 16px;
     text-align: justify;
-    margin-right: 66%;
     font-family: "Poppins", sans-serif;
 }
 
@@ -481,6 +482,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 10%;
 }
 
@@ -491,3 +493,22 @@
     font-family: "Poppins", sans-serif;
 }
 
+.card-container-temas{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-container-temas card{
+    background-color: #0072BC;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 48%;
+    border-radius: 30px;
+    font-family: "Poppins", sans-serif;
+    
+}
