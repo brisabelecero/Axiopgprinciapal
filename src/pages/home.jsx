@@ -17,10 +17,14 @@ const home = () => {
               en coadyuvar en la creación de una mejor sociedad, libre de violencia,
               corrupción, desigualdad y discriminación.</p>
           </div>
-          <LottieAnim animacion={animacion2}  ancho={"600px"} alto={"600px"} />
+          <div className="lottie-animation-a">
+            <LottieAnim animacion={animacion2}/>
+          </div>
         </section>
         <section className='home-container-b'>
-          <LottieAnim animacion={animacion3} ancho={"600px"} alto={"400px"}/>
+          <div className="lottie-animation-b">
+            <LottieAnim animacion={animacion3}/>
+          </div>
           <div className='home-text'>
             <p>Para cumplir con nuestro objetivo hemos desarrollado diversos instrumentos, 
               recursos formativos, metodologías de gestión y certificaciones que permiten hacer 
