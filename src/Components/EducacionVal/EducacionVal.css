@@ -126,3 +126,30 @@
     font-family: "Poppins", sans-serif;
 }
 
+@media (max-width: 1024px) and (min-width: 768px) {}
+
+@media (max-width: 480px) and (min-width: 320px) {
+    .certif-section-a p{
+        font-size: 8px;
+    }
+
+    .certif-section-b p{
+        font-size: 8px;
+    }
+
+    .list-certif li{
+        font-size: 8px;
+        margin: 4px;
+    }
+
+    .img-list{
+        height: 15px;
+        width: 15px;
+        margin-right: 7px;
+        margin-bottom: 5px;
+    }
+
+    .certif-container-a p{
+        font-size: 8px;
+    }
+}
