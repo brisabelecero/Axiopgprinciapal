@@ -17,7 +17,7 @@ const home = () => {
               en coadyuvar en la creación de una mejor sociedad, libre de violencia,
               corrupción, desigualdad y discriminación.</p>
           </div>
-          <LottieAnim animacion={animacion2}  ancho={"600px"} alto={"600px"}/>
+          <LottieAnim animacion={animacion2}  ancho={"600px"} alto={"600px"} />
         </section>
         <section className='home-container-b'>
           <LottieAnim animacion={animacion3} ancho={"600px"} alto={"400px"}/>

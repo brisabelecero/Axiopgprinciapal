@@ -5,8 +5,24 @@ import animacion1 from '../LottieComp/animations/animation1.json'
 
 const BannerHome = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
-  const [anchoAnim, setAncho] = useState('612.2px')
-  const [altoAnim, setAlto] = useState('407.72px')
+  const [anchoAnim, setAncho] = useState(() => {
+    if (window.innerWidth > 1024){
+      return '612.2px'
+    }else if (window.innerWidth >= 768){
+      return '400px'
+    }else {
+      return '120px'
+    }
+  })
+  const [altoAnim, setAlto] = useState(() => {
+    if (window.innerWidth > 1024){
+      return '407.72px'
+    }else if (window.innerWidth >= 768){
+      return '300px'
+    }else {
+      return '145px'
+    }
+  })
 
   useEffect(() => {
     const handleResize = () => {
@@ -19,12 +35,30 @@ const BannerHome = () => {
         setAlto('300px')
       }else{
         setAncho('120px')
-        setAlto('150px')
+        setAlto('145px')
       }
     }
     window.addEventListener('resize', handleResize)
     return () => window.removeEventListener('resize', handleResize)
   }, [])
+/*
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth)
+      if (window.innerWidth > 1024){
+        setAncho('612.2px')
+        setAlto('407.72px')
+      }else if (window.innerWidth >= 768){
+        setAncho('400px')
+        setAlto('300px')
+      }else {
+        setAncho('120px')
+        setAlto('145px')
+      }
+    }
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])*/
 
   return (
     <section className='banner-home'>
