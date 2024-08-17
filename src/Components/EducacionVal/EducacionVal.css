@@ -77,6 +77,11 @@
     width: 53%;
 }
 
+.lottie-certif-a{
+    width: 391.21px;
+    height: 356px;
+}
+
 .certif-container-a p{
     text-align: justify;
     font-weight: 500;
@@ -102,6 +107,11 @@
     font-weight: 500;
     font-size: 16px;
     font-family: "Poppins", sans-serif;
+}
+
+.lottie-certif-b{
+    width: 432px;
+    height: 432px;
 }
 
 .certif-section-e{
@@ -150,6 +160,29 @@
     }
 
     .certif-container-a p{
+        font-size: 8px;
+    }
+
+    .lottie-certif-a{
+        width: 195px;
+        height: 178px;
+    }
+
+    .certif-section-d p{
+        font-size: 8px;
+    }
+
+    .lottie-certif-b{
+        width: 108px;
+        height: 108px;
+    }
+
+    .certif-section-e img{
+        width: 112px;
+        height: 68px;
+    }
+    
+    .certif-container-b p{
         font-size: 8px;
     }
 }

@@ -37,7 +37,9 @@ const EducacionVal = () => {
             <p>encabezan la lista de prioridades de la mayoría de las comunidades educativas.</p>
         </section>
         <section className="certif-section-c">
-            <LottieAnim animacion={animacioncertif1} ancho={"391.21"} alto={"356px"}/>
+            <div className="lottie-certif-a">
+                <LottieAnim animacion={animacioncertif1} />
+            </div>
             <div className="certif-container-a">
                 <p>Las visiones pragmáticas y utilitaristas de la educación no han dado 
                     respuesta a estos desafíos y muchas de las políticas educativas apenas rozan 
@@ -56,7 +58,9 @@ const EducacionVal = () => {
                 en valores en los hogares y escuelas, se necesitan acciones coordinadas que tengan un 
                 sólido fundamento científico alejado de cualquier ideología religiosa o política. Se requiere 
                 certeza en el rumbo y la convicción de mantenerse en la ruta trazada.</p>
-            <LottieAnim animacion={animacioncertif2} ancho={"432px"} alto={"432px"} />
+            <div className="lottie-certif-b">
+                <LottieAnim animacion={animacioncertif2}/>
+            </div>
         </section>
         <section className="certif-section-e">
             <img src={ImgCertif1} alt="" />
