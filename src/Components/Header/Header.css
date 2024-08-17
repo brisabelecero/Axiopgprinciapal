@@ -40,3 +40,73 @@
     margin-left: 40px;
     font-family: "Poppins", sans-serif;
 }
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+  }
+
+  .header a{
+    margin-left: 5%;
+  }
+
+  .navbar{
+    margin-left: 2%;
+  }
+  
+  .navbar a{
+      text-decoration: none;
+      position: relative;
+      font-size: 10px;
+      color: #fff;
+      font-weight: 500;
+      margin-left: 20px;
+      font-family: "Poppins", sans-serif;
+  }
+
+}
+
+@media (max-width: 480px) and (min-width: 320px) {
+  .header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+  }
+
+  .logo{
+    height: 27px;
+    width: 27px;
+  }
+
+  .header a{
+    margin-left: 5%;
+  }
+
+  .navbar{
+    margin-left: 2%;
+  }
+  
+  .navbar a{
+      text-decoration: none;
+      position: relative;
+      font-size: 5px;
+      color: #fff;
+      font-weight: 500;
+      margin-left: 4px;
+      font-family: "Poppins", sans-serif;
+  }
+}

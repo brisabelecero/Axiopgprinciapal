@@ -44,3 +44,41 @@
     font-family: "Poppins", sans-serif;
 }
 
+@media (max-width: 1024px) and (min-width: 768px) {
+    .banner-home {
+      height: auto;
+      padding: 20px;
+    }
+  
+    .banner-home h1 {
+      font-size: 25px;
+    }
+  
+    .banner-home p {
+      font-size: 10px;
+    }
+  
+    .banner-home-btn {
+      font-size: 7px;
+    }
+  }
+
+@media (max-width: 480px) and (min-width: 320px) {
+   .banner-home {
+       height: 160px;
+       padding: 20px;
+   }
+
+   .banner-home h1 {
+    font-size: 25px;
+    }
+
+    .banner-home p {
+        font-size: 5px;
+    }
+
+    .banner-home-btn {
+        font-size: 7px;
+        padding: 2px 12px;
+    }
+}
