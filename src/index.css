@@ -152,7 +152,7 @@
 
 .values{
     display: flex;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-top: 5%;
 }
 
@@ -187,7 +187,7 @@
     color: #0072BC;
     padding: 20px 35px 20px 35px;
     border-radius: 30px;
-  }
+}
 
 .digital-section-a{
     display: flex;
@@ -552,9 +552,10 @@
         font-weight: 600;
         font-size: 25px;
     }
+    
 }
   
-  @media (max-width: 480px) and (min-width: 320px) {
+@media (max-width: 480px) and (min-width: 320px) {
     .home-title{
         font-size: 15px;
     }
@@ -583,4 +584,36 @@
         font-size: 15px;
     }
 
+    .mission img, .vision img{
+        width: 115px;
+        height: 70px;
+    }
+
+    .mission h2{
+        font-size: 20px;
+    }
+    
+    .mission p{
+        font-size: 8px;
+    }
+
+    .vision h2{
+        font-size: 20px;
+    }
+    
+    .vision p{
+        font-size: 8px;
+    }
+
+    .values h2{
+        font-size: 20px;
+    }
+
+    .btn-certif{
+        font-size: 7px;
+    }
+
+    .btn-certif.active {
+        padding: 5px 15px 5px 15px;
+    }
 }

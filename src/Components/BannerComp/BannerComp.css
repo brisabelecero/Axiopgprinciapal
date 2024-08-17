@@ -17,3 +17,16 @@
     font-weight: 700;
     font-family: "Poppins", sans-serif;
 }
+
+@media (max-width: 1024px) and (min-width: 768px) {}
+
+
+@media (max-width: 480px) and (min-width: 320px) {
+    .banner-comp{
+        height: 150px;
+    }
+
+    .banner-title{
+        font-size: 24px;
+    }
+}
