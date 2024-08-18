@@ -28,7 +28,9 @@ const GestionVal = () => {
               iniciativas encaminadas a fortalecer el tejido social desde la cultura empresarial.</p>
           <p className="gestion-distinction">¡Certifica a tu empresa!</p>
         </div>
-        <LottieAnim animacion={animationcertif4} ancho={"450px"} alto={"405.9px"} />
+        <div className="lottie-gestion-a">
+          <LottieAnim animacion={animationcertif4} />
+        </div>
       </section>
     </div>
   )

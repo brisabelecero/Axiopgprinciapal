@@ -165,7 +165,7 @@
 
     .lottie-certif-a{
         width: 195px;
-        height: 178px;
+        height: auto;
     }
 
     .certif-section-d p{
@@ -173,13 +173,13 @@
     }
 
     .lottie-certif-b{
-        width: 108px;
-        height: 108px;
+        width: 110px;
+        height: auto;
     }
 
     .certif-section-e img{
-        width: 112px;
-        height: 68px;
+        width: 120px;
+        height: auto;
     }
     
     .certif-container-b p{

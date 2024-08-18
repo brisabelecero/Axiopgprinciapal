@@ -205,7 +205,6 @@
 
 .card-digital-container{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     margin-top: 10px;
     margin-bottom: 40px;
@@ -245,6 +244,11 @@
     margin-right: 10%;
 }
 
+.lottie-digital-a{
+    width: 412px;
+    height: 412px;
+}
+
 .digital-container-a p{
     text-align: justify;
     width: 65%;
@@ -253,6 +257,11 @@
 .digital-container-b{
     display: flex;
     align-items: center;
+}
+
+.lottie-digital-b{
+    width: 360px;
+    height: 360px;
 }
 
 .digital-container-b p{
@@ -562,7 +571,7 @@
 
     .lottie-animation-a{
         width: 200px;
-        height: 200px;
+        height: auto;
     }
 
     .home-container-a p{
@@ -571,7 +580,7 @@
 
     .lottie-animation-b{
         width: 150px;
-        height: 100px;
+        height: auto;
     }
 
     .home-container-b p{
@@ -615,5 +624,70 @@
 
     .btn-certif.active {
         padding: 5px 15px 5px 15px;
+    }
+
+    .digital-section-a p{
+        width: 80%;
+        font-size: 8px;
+    }
+
+    .card-digital-container{
+        margin-bottom: 20px;
+    }
+
+    .card-digital-container card{
+        width: 90px;
+        font-size: 8px;
+        margin: 5px;
+    }
+
+    .card-a, .card-b{
+        padding: 6px;
+    }
+
+    .lottie-digital-a{
+        width: 206px;
+        height: auto;
+    }
+
+    .lottie-digital-b{
+        width: 180px;
+        height: auto;
+    }
+
+    .digital-container-c h2{
+        font-size: 20px;
+    }
+
+    .img-cir-phone{
+        width: 150px;
+        height: auto;
+    }
+    
+    .img-list-contain-a ul{
+        font-size: 8px;
+    }
+    
+    .img-list-contain-a li{
+        text-align: justify;
+        margin-bottom: 10px;
+    }
+    
+    .digital-container-d h2{
+        font-size: 20px;
+    }
+
+    .img-list-contain-b ul{
+        font-size: 8px;
+    }
+    
+    .img-list-contain-b li{
+        text-align: justify;
+        margin-bottom: 10px;
+    }
+    
+    .img-lap{
+        width: 160px;
+        height: auto;
     }
 }

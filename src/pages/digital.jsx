@@ -19,7 +19,9 @@ const digital = () => {
           <card className="card-c">Habilidades Socioemocionales</card>
         </div>
         <div className="digital-container-a">
-          <LottieAnim animacion={animacioneco1} ancho={"412px"} alto={"412"} />
+          <div className="lottie-digital-a">
+            <LottieAnim animacion={animacioneco1} />
+          </div>
           <p>Consta de una <span class="distinction-blue"> aplicación para dispositivos móviles </span> con 
             múltiples recursos formativos en valores para <span className="distinction-green"> alumnos</span>, 
             <span className="distinction-green"> padres de familia</span>, <span className="distinction-green"> docentes </span>, 
@@ -30,7 +32,9 @@ const digital = () => {
           <p>Así como de una<span className="distinction-blue"> plataforma </span>que permite la 
           implementación de un modelo de gestión basado en valores y así obtener la 
           <span className="distinction-green"> certificación </span>en la norma correspondiente.</p>
-          <LottieAnim animacion={animacioneco2} ancho={"360px"} alto={"360px"} />
+          <div className="lottie-digital-b">
+            <LottieAnim animacion={animacioneco2} />
+          </div>
         </div>
         <div className="digital-container-c">
           <h2>Aplicación Axio</h2>
