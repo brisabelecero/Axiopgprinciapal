@@ -12,7 +12,7 @@ const services = () => {
     <div>
       <BannerComp title={"Servicios"} image={ImgService1}/>
       <section className="service-section-a">
-        <h2>Diagnóstico de cultura de Integridad</h2>
+        <h2>Diagnóstico De Cultura De Integridad</h2>
         <div className="container-services-a">
           <p>El elemento más influyente en el comportamiento de una persona es la 
             cultura de las organizaciones de las que forma parte. Esta cultura se 
@@ -28,7 +28,7 @@ const services = () => {
         </div>
       </section>
       <section className="service-section-b">
-        <h2>Dictamen técnico de códigos de Ética</h2>
+        <h2>Dictamen Técnico De Códigos De Ética</h2>
         <p>Con el afán de promover una nueva cultura ética en las organizaciones se han 
             promovido instrumentos de gestión como: </p>
         <div className="card-container-service">
@@ -46,43 +46,47 @@ const services = () => {
       <section className="service-section-c">
         <h2>Formación</h2>
         <div className="container-service-b">
-          <LottieAnim animacion={animacionservice1} ancho={"400px"} alto={"346px"}/>
+          <div className="lottie-service-a">
+            <LottieAnim animacion={animacionservice1} />
+          </div>
           <p>No es posible lograr la transformación de una entidad organizacional sin el proceso de detección 
             y sustitución de axiomas erróneos por verdaderos y eso se logra a través de procesos formativos.</p>
         </div>
         <div className="container-service-c">
           <p>La formación tiene como objetivo trasladar los principios especulativos en los que se fundamenta la ética y 
           la axiología a acciones concretas que enriquezcan la toma de decisiones en el plano personal y organizacional</p>
-          <LottieAnim animacion={animacionservice2} ancho={"500px"} alto={"329px"}/>
+          <div className="lottie-service-b">
+            <LottieAnim animacion={animacionservice2} />
+          </div>
         </div>
       </section>
       <section className="service-section-d">
         <h2>Temas</h2>
         <div className="card-container-temas">
-          <card>Sistemas Axiomaticos</card>
-          <card>La Naturaleza De Los Valores</card>
-          <card>Ética General</card>
-          <card>Ética Especial</card>
-          <card>Liderazgo Basado en Valores</card>
-          <card>Equipoes De Trabajo Con Valores</card>
-          <card>Filosofía De La Educación</card>
-          <card>Combate A La Corrupción</card>
-          <card>Prevensión De La Violencia En Entornos Escolares</card>
-          <card>Valores Y Virtudes</card>
-          <card>Inteligencia Y Valores</card>
-          <card>Valores En El Hogar</card>
-          <card>Autoestima</card>
-          <card>El Poder De La Palabra</card>
-          <card>Comunicación En El Hogar</card>
-          <card>La Naturaleza Humana</card>
-          <card>Axiología</card>
-          <card>Metafísica</card>
-          <card>Ontología</card>
-          <card>Gnoseología</card>
-          <card>Cultura Organizacional</card>
-          <card>Dirección Y Desarrollo De Equipos De Alto Rendimiento</card>
-          <card>El Papel Docente</card>
-          <card>Desarrollo De La Inteligencia</card>
+          <card className="color-card-a">Sistemas Axiomaticos</card>
+          <card className="color-card-a">La Naturaleza De Los Valores</card>
+          <card className="color-card-b">Ética General</card>
+          <card className="color-card-b">Ética Especial</card>
+          <card className="color-card-c">Liderazgo Basado en Valores</card>
+          <card className="color-card-c">Equipoes De Trabajo Con Valores</card>
+          <card className="color-card-d">Filosofía De La Educación</card>
+          <card className="color-card-d">Combate A La Corrupción</card>
+          <card className="color-card-e">Prevensión De La Violencia En Entornos Escolares</card>
+          <card className="color-card-e">Valores Y Virtudes</card>
+          <card className="color-card-f">Inteligencia Y Valores</card>
+          <card className="color-card-f">Valores En El Hogar</card>
+          <card className="color-card-g">Autoestima</card>
+          <card className="color-card-g">El Poder De La Palabra</card>
+          <card className="color-card-h">Comunicación En El Hogar</card>
+          <card className="color-card-h">La Naturaleza Humana</card>
+          <card className="color-card-i">Axiología</card>
+          <card className="color-card-i">Metafísica</card>
+          <card className="color-card-j">Ontología</card>
+          <card className="color-card-j">Gnoseología</card>
+          <card className="color-card-k">Cultura Organizacional</card>
+          <card className="color-card-k">Dirección Y Desarrollo De Equipos De Alto Rendimiento</card>
+          <card className="color-card-l">El Papel Docente</card>
+          <card className="color-card-l">Desarrollo De La Inteligencia</card>
         </div>
       </section>
     </div>

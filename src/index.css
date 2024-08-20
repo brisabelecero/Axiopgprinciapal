@@ -363,7 +363,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-.service-section-a p, .container-services-a p{
+.service-section-a p{
     font-weight: 500;
     font-size: 16px;
     text-align: justify;
@@ -476,6 +476,11 @@
     align-items: center;
 }
 
+.lottie-service-a{
+    width: 400px;
+    height: 346px;
+}
+
 .container-service-b p{
     width: 70%;
     margin-left: 50px;
@@ -488,6 +493,11 @@
 .container-service-c{
     display: flex;
     align-items: center;
+}
+
+.lottie-service-b{
+    width: 500px;
+    height: 329px;
 }
 
 .container-service-c p{
@@ -503,7 +513,7 @@
     flex-direction: column;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .service-section-d h2{
@@ -517,20 +527,69 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 20px;
     justify-content: space-between;
 }
 
 .card-container-temas card{
-    background-color: #0072BC;
     color: #fff;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     width: 48%;
     border-radius: 30px;
+    padding: 10px 20px;
     font-family: "Poppins", sans-serif;
-    
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.color-card-a{
+    background-color: #FA0224;
+}
+
+.color-card-b{
+    background-color: #FF6801;
+}
+
+.color-card-c{
+    background-color: #FF8A00;
+}
+
+.color-card-d{
+    background-color: #FFC100;
+}
+
+.color-card-e{
+    background-color: #FFDB00;
+}
+
+.color-card-f{
+    background-color: #70DE01;
+}
+
+.color-card-g{
+    background-color: #01AB8E;
+}
+
+.color-card-h{
+    background-color: #0093D3;
+}
+
+.color-card-i{
+    background-color: #0053AB;
+}
+
+.color-card-j{
+    background-color: #743EA0;
+}
+
+.color-card-k{
+    background-color: #B23A9E;
+}
+
+.color-card-l{
+    background-color: #F41F99;
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {
@@ -689,5 +748,89 @@
     .img-lap{
         width: 160px;
         height: auto;
+    }
+
+    .service-section-a h2{
+        font-size: 15px;
+    }
+
+    .service-section-a p{
+        font-size: 8px;
+        margin-top: 10px;
+    }
+    
+    .container-services-b{
+        margin-top: 5px;
+        width: 90%
+    }
+
+    .service-section-b h2{
+        font-size: 15px;
+    }
+    
+    .service-section-b p{
+        font-size: 8px;
+    }
+
+    .card-service-a{
+        width: 270px;
+        height: 22px;
+        font-size: 7px;
+        padding: 5px;
+    }
+    
+    .card-service-b{
+        width: 270px;
+        height: 22px;
+        font-size: 7px;
+        padding: 5px;
+    }
+    
+    .card-service-c{
+        width: 270px;
+        height: 22px;
+        padding: 5px;
+        font-size: 7px;
+    }
+
+    .service-section-c h2{
+        font-size: 15px;
+    }
+    
+    .container-service-b p{
+        width: 70%;
+        margin-left: 20px;
+        font-size: 8px;
+    }
+
+    .lottie-service-a{
+        width: 200px;
+        height: auto;
+    }
+
+    .container-service-c p{
+        width: 60%;
+        font-size: 8px;
+    }
+
+    .lottie-service-b{
+        width: 250px;
+        height: auto;
+    }
+
+    .service-section-d h2{
+        font-size: 15px;
+    }
+
+    .card-container-temas{
+        margin-top: 10px;
+    }
+
+    .card-container-temas card{
+        font-size: 7px;
+        margin-bottom: 10px;
+        width: 48%;
+        border-radius: 30px;
+        padding: 5px 10px;
     }
 }

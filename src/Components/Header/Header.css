@@ -93,20 +93,20 @@
   }
 
   .header a{
-    margin-left: 5%;
+    margin-left: 2%;
   }
 
   .navbar{
-    margin-left: 2%;
+    margin-left: 1%;
   }
   
   .navbar a{
       text-decoration: none;
       position: relative;
-      font-size: 6px;
+      font-size: 8px;
       color: #fff;
       font-weight: 500;
-      margin-left: 4px;
+      margin-left: 8px;
       font-family: "Poppins", sans-serif;
   }
 }
