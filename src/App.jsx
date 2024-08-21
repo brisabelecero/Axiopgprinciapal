@@ -2,24 +2,24 @@ import React from 'react'
 import HeaderComp from './Components/Header/HeaderComp'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
-import Inicio from './pages/home'
-import Quienes from './pages/about'
-import Certificaciones from './pages/certifications'
-import Digital from './pages/digital'
-import Servicios from './pages/services'
-import Contacto from './pages/contact'
+import Home from '../pages/home'
+import About from '../pages/about'
+import Certifications from '../pages/certifications'
+import Digital from '../pages/digital'
+import Services from '../pages/services'
+import Contact from '../pages/contact'
 
 function App() {
   return (
     <BrowserRouter>
       <HeaderComp />
       <Routes>
-        <Route path='/' element={<Inicio />} />
-        <Route path='/about' element={<Quienes />} />
-        <Route path='/certifications' element={<Certificaciones />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/certifications' element={<Certifications />} />
         <Route path='/digital' element={<Digital />} />
-        <Route path='/services' element={<Servicios />} />
-        <Route path='/contact' element={<Contacto />} />
+        <Route path='/services' element={<Services />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
     </BrowserRouter>
   )
