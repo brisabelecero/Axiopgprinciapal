@@ -203,16 +203,18 @@
     font-family: "Poppins", sans-serif;
 }
 
-.card-digital-container{
+.digital-card-list{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 10px;
     margin-bottom: 40px;
 }
 
-.card-digital-container card{
+.digital-card-list li{
     width: 300px;
     font-size: 20px;
+    list-style: none;
     text-align: center;
     font-weight: 600;
     color: #fff;
@@ -592,6 +594,21 @@
     background-color: #F41F99;
 }
 
+.contact-section-a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.contact-section-a h1{
+    font-weight: 700;
+    font-size: 50px;
+    color: #4285F4;
+    font-family: "Poppins", sans-serif;
+}
+
 @media (max-width: 1024px) and (min-width: 768px) {
     .home-title{
         font-size: 30px;
@@ -690,11 +707,11 @@
         font-size: 8px;
     }
 
-    .card-digital-container{
+    .digital-card-list{
         margin-bottom: 20px;
     }
 
-    .card-digital-container card{
+    .digital-card-list li{
         width: 90px;
         font-size: 8px;
         margin: 5px;

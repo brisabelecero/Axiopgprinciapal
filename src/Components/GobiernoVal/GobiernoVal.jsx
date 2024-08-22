@@ -21,7 +21,7 @@ const GobiernoVal = () => {
           <LottieAnim animacion={animacioncertif3} />
         </div>
         <div className="section-container-b">
-          <p>La certificación en la norma <span class="gob-distinction-blue"> “Gobierno con Valores” </span> tiene como objetivo acreditar, 
+          <p>La certificación en la norma <span className="gob-distinction-blue"> “Gobierno con Valores” </span> tiene como objetivo acreditar, 
             reconocer y promover un modelo de gestión pública que tiene como eje la conducta íntegra 
             de los funcionarios gubernamentales.</p>
           <p className="gob-distinction">¡Certifica a tu institución de gobierno!</p>

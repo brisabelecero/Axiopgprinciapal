@@ -1,5 +1,5 @@
 import React from 'react'
-import BannerComp from '../Components/BannerComp/BannerComp'
+import BannerDigital from '../Components/BannerDigital/BannerDigital'
 import { LottieAnim } from '../Components/LottieComp/LottieAnim'
 import animacioneco1 from '../Components/LottieComp/animations/animationeco1.json'
 import animacioneco2 from '../Components/LottieComp/animations/animationeco2.json'
@@ -10,19 +10,19 @@ import ImgLap from '../assets/images/laptop.png'
 const digital = () => {
   return (
     <div>
-      <BannerComp title={"Ecosistema Digital"} image={ImgDigital1} />
+      <BannerDigital title={"Ecosistema Digital"} image={ImgDigital1} />
       <section className="digital-section-a">
         <p>El <span className="distinction-blue"> Ecosistema digital Axio </span> es un conjunto de recursos y estrategias que permiten la formación en:</p>
-        <div className="card-digital-container">
-          <card className="card-a">Ética</card>
-          <card className="card-b">Valores</card>
-          <card className="card-c">Habilidades Socioemocionales</card>
-        </div>
+          <ul className="digital-card-list">
+            <li className="card-a">Ética</li>
+            <li className="card-b">Valores</li>
+            <li className="card-c">Habilidades Socioemocionales</li>
+          </ul>
         <div className="digital-container-a">
           <div className="lottie-digital-a">
             <LottieAnim animacion={animacioneco1} />
           </div>
-          <p>Consta de una <span class="distinction-blue"> aplicación para dispositivos móviles </span> con 
+          <p>Consta de una <span className="distinction-blue"> aplicación para dispositivos móviles </span> con 
             múltiples recursos formativos en valores para <span className="distinction-green"> alumnos</span>, 
             <span className="distinction-green"> padres de familia</span>, <span className="distinction-green"> docentes </span>, 
             <span className="distinction-green"> servidores públicos </span> y <span className="distinction-green"> trabajadores </span> 
