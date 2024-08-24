@@ -1,6 +1,6 @@
 import React from 'react'
 import BannerComp from '../Components/BannerComp/BannerComp'
-import ImgService1 from '../assets/images/serv1.png'
+import ImgService1 from '../assets/images/service-1.png'
 import { LottieAnim } from '../Components/LottieComp/LottieAnim'
 import animacionservice1 from '../Components/LottieComp/animations/animationservice1.json'
 import animacionservice2 from '../Components/LottieComp/animations/animationservice2.json'
@@ -31,11 +31,11 @@ const services = () => {
         <h2>Dictamen Técnico De Códigos De Ética</h2>
         <p>Con el afán de promover una nueva cultura ética en las organizaciones se han 
             promovido instrumentos de gestión como: </p>
-        <div className="card-container-service">
-          <card className="card-service-a">Códigos de ética</card>
-          <card className="card-service-b">Códigos de conduca</card>
-          <card className="card-service-c">Declaración de valores</card>
-        </div>
+        <ul className="service-card-list">
+          <li className="card-service-a">Códigos de ética</li>
+          <li className="card-service-b">Códigos de conduca</li>
+          <li className="card-service-c">Declaración de valores</li>
+        </ul>
         <p>que buscan ser un referente próximo de la conducta de las personas. Para garantizar 
           la eficacia de estos instrumentos de gestión, es necesario que reúnan las condiciones 
           mínimas y necesarias para que sin ambigüedades y sólidos fundamentos se constituyan en 
@@ -62,32 +62,32 @@ const services = () => {
       </section>
       <section className="service-section-d">
         <h2>Temas</h2>
-        <div className="card-container-temas">
-          <card className="color-card-a">Sistemas Axiomaticos</card>
-          <card className="color-card-a">La Naturaleza De Los Valores</card>
-          <card className="color-card-b">Ética General</card>
-          <card className="color-card-b">Ética Especial</card>
-          <card className="color-card-c">Liderazgo Basado en Valores</card>
-          <card className="color-card-c">Equipoes De Trabajo Con Valores</card>
-          <card className="color-card-d">Filosofía De La Educación</card>
-          <card className="color-card-d">Combate A La Corrupción</card>
-          <card className="color-card-e">Prevensión De La Violencia En Entornos Escolares</card>
-          <card className="color-card-e">Valores Y Virtudes</card>
-          <card className="color-card-f">Inteligencia Y Valores</card>
-          <card className="color-card-f">Valores En El Hogar</card>
-          <card className="color-card-g">Autoestima</card>
-          <card className="color-card-g">El Poder De La Palabra</card>
-          <card className="color-card-h">Comunicación En El Hogar</card>
-          <card className="color-card-h">La Naturaleza Humana</card>
-          <card className="color-card-i">Axiología</card>
-          <card className="color-card-i">Metafísica</card>
-          <card className="color-card-j">Ontología</card>
-          <card className="color-card-j">Gnoseología</card>
-          <card className="color-card-k">Cultura Organizacional</card>
-          <card className="color-card-k">Dirección Y Desarrollo De Equipos De Alto Rendimiento</card>
-          <card className="color-card-l">El Papel Docente</card>
-          <card className="color-card-l">Desarrollo De La Inteligencia</card>
-        </div>
+        <ul className="card-list-temas">
+          <li className="color-card-a">Sistemas Axiomaticos</li>
+          <li className="color-card-a">La Naturaleza De Los Valores</li>
+          <li className="color-card-b">Ética General</li>
+          <li className="color-card-b">Ética Especial</li>
+          <li className="color-card-c">Liderazgo Basado En Valores</li>
+          <li className="color-card-c">Equipos De Trabajo Con Valores</li>
+          <li className="color-card-d">Filosofía De La Educación</li>
+          <li className="color-card-d">Combate A La Corrupción</li>
+          <li className="color-card-e">Prevención De La Violencia En Entornos Escolares</li>
+          <li className="color-card-e">Valores Y Virtudes</li>
+          <li className="color-card-f">Inteligencia Y Valores</li>
+          <li className="color-card-f">Valores En El Hogar</li>
+          <li className="color-card-g">Autoestima</li>
+          <li className="color-card-g">El Poder De La Palabra</li>
+          <li className="color-card-h">Comunicación En El Hogar</li>
+          <li className="color-card-h">La Naturaleza Humana</li>
+          <li className="color-card-i">Axiología</li>
+          <li className="color-card-i">Metafísica</li>
+          <li className="color-card-j">Ontología</li>
+          <li className="color-card-j">Gnoseología</li>
+          <li className="color-card-k">Cultura Organizacional</li>
+          <li className="color-card-k">Dirección Y Desarrollo De Equipos De Alto Renrendimiento</li>
+          <li className="color-card-l">El Papel Docente</li>
+          <li className="color-card-l">Desarrollo De La Inteligencia</li>
+        </ul>
       </section>
     </div>
   )

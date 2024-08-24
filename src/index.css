@@ -409,13 +409,14 @@
     font-family: "Poppins", sans-serif;
 }
 
-.card-container-service{
+.service-card-list{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2%;
     margin: 5%;
     margin-right: 10%;
+    list-style: none;
 }
 
 .card-service-a{
@@ -525,7 +526,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-.card-container-temas{
+.card-list-temas{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -533,7 +534,7 @@
     justify-content: space-between;
 }
 
-.card-container-temas card{
+.card-list-temas li{
     color: #fff;
     font-weight: 600;
     font-size: 15px;
@@ -844,11 +845,11 @@
         font-size: 15px;
     }
 
-    .card-container-temas{
+    .card-list-temas{
         margin-top: 10px;
     }
 
-    .card-container-temas card{
+    .card-list-temas li{
         font-size: 7px;
         margin-bottom: 10px;
         width: 48%;

@@ -1,18 +1,30 @@
 .section-gob-a{
     display: flex;
-    flex-direction: column;
-    margin-left: 10%;
-    margin-right: 10%;
+    flex-direction: row;
+    align-items: center;
     margin-bottom: 5%;
+    width: 95%;
+}
+
+.section-container-a{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 5%;
+    flex-direction: column;
+
 }
 
 .section-container-a p{
-    width: 40%;
     font-weight: 500;
     font-size: 16px;
     text-align: justify;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     font-family: "Poppins", sans-serif;
+}
+
+.video-player{
+    width: 900px;
+    height: 450px;
 }
 
 .section-gob-b{
@@ -27,12 +39,19 @@
     height: 360px;
 }
 
+.section-gob-b{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
 .section-container-b {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    margin-left: 5%;
     width: 60%;
-    margin-bottom: 10%;
 }
 
 .section-container-b p{
@@ -57,6 +76,11 @@
     .section-container-a p{
         font-size: 8px;
     }
+
+    .video-player{
+        width: 320px;
+        height: 115px;
+    }    
 
     .section-container-b {
         align-items: flex-start;
