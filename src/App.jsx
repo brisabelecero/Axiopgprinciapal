@@ -12,7 +12,6 @@ import Contact from './pages/contact'
 function App() {
   
   return (
-    <>
       <BrowserRouter>
         <HeaderComp />
         <Routes>
@@ -24,7 +23,6 @@ function App() {
           <Route path='/contact' element={<Contact />} />
         </Routes>
       </BrowserRouter>
-    </>
   )
 }
 
