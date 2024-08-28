@@ -8,6 +8,7 @@ import ImgPhone1 from '../../assets/images/phone1.png'
 
 const BannerDigital = ({title, image}) => {
     const googlePlayLink = 'https://play.google.com/store/apps/details?id=com.iwebsapp.axioparents&hl=es_MX'
+    const appStoreLink = 'https://www.apple.com/mx/search/axio?src=globalnav'
 
   return (
     <div className="banner-digital" style={{ backgroundImage: `url(${image})` }}>
@@ -18,7 +19,7 @@ const BannerDigital = ({title, image}) => {
           <a href={googlePlayLink} target="_blank" rel="noopener noreferrer">
               <img src={googlePlayButton} alt="Disponible en Google Play" className="btn-store"/>
           </a>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href={appStoreLink} target="_blank" rel="noopener noreferrer">
             <img src={appStoreButton} alt="Disponible en App Store" className="btn-store"/>
           </a>
         </div>

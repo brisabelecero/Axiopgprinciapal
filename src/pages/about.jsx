@@ -1,5 +1,6 @@
 import React from 'react'
 import BannerComp from '../Components/BannerComp/BannerComp'
+import CardComp from '../Components/CardComp/CardComp'
 import ImgQuienes from '../assets/images/quienes-1.jpg'
 import ImgMission from '../assets/images/ImgMision.jpg'
 import ImgVision from '../assets/images/ImgVision.jpg'
@@ -25,9 +26,13 @@ const about = () => {
            la integridad y nuestros diagnósticos de cultura de integridad en más de cinco países de Latinoamérica</p>
         </div>
       </section>
-      <section className='values'>
+      <section className="values">
         <h2>Nuestros Valores</h2>
-        <div className="cards-container"></div>
+        <div className="cards-container">
+          <CardComp icono={""} titulo={"Valor"} descripcion={"En construcción"} />
+          <CardComp icono={""} titulo={"Valor"} descripcion={"En construcción"} />
+          <CardComp icono={""} titulo={"Valor"} descripcion={"En construcción"} />
+        </div>
       </section>
     </div>
   )

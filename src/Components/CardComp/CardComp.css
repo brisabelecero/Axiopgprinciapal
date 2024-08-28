@@ -1,0 +1,20 @@
+.card-component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-component h3{
+    font-weight: 700;
+    font-size: 25px;
+    color: #4285F4;
+    font-family: "Poppins", sans-serif;
+}
+
+.card-component p{
+    font-weight: 500;
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 10%;
+    font-family: "Poppins", sans-serif;
+}
