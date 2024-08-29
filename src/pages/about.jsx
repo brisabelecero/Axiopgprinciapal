@@ -29,9 +29,7 @@ const about = () => {
       <section className="values">
         <h2>Nuestros Valores</h2>
         <div className="cards-container">
-          <CardComp icono={""} titulo={"Valor"} descripcion={"En construcción"} />
-          <CardComp icono={""} titulo={"Valor"} descripcion={"En construcción"} />
-          <CardComp icono={""} titulo={"Valor"} descripcion={"En construcción"} />
+          <h2>En Construcción</h2>
         </div>
       </section>
     </div>
