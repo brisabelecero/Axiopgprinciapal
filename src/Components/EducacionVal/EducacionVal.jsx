@@ -10,6 +10,7 @@ import ImgCertif1 from '../../assets/images/ImgCertif1.png'
 import { LottieAnim } from '../LottieComp/LottieAnim'
 import animacioncertif1 from '../LottieComp/animations/animationcertif1.json'
 import animacioncertif2 from '../LottieComp/animations/animationcertif2.json'
+import VideoPlayer from '../VideoComp/VideoPlayer'
  
 const EducacionVal = () => {
   return (
@@ -18,6 +19,7 @@ const EducacionVal = () => {
             <p>En la educación descansan las esperanzas de un mundo mejor. 
              Un mundo libre del cáncer de la corrupción, del azote de la violencia 
              y de la tragedia de las desigualdades sociales.</p>
+            <VideoPlayer videoSrc="/src/assets/videos/video2.mp4" />
         </section>
         <section className="certif-section-b">
             <p>Múltiples y variados diagnósticos develan que los esfuerzos de los sistemas educativos 
