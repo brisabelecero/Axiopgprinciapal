@@ -384,12 +384,14 @@
 }
 
 .container-services-a{
-    margin-top: 20px;
-    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10%;
 }
 
-.container-services-a p{
-    margin-right: 40%;
+.txt-services-a p{
+    margin-right: 23%;
     margin-bottom: 3%;
 }
 

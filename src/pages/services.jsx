@@ -1,6 +1,7 @@
 import React from 'react'
 import BannerComp from '../Components/BannerComp/BannerComp'
 import ImgService1 from '../assets/images/service-1.png'
+import VideoPlayer from '../Components/VideoComp/VideoPlayer'
 import { LottieAnim } from '../Components/LottieComp/LottieAnim'
 import animacionservice1 from '../Components/LottieComp/animations/animationservice1.json'
 import animacionservice2 from '../Components/LottieComp/animations/animationservice2.json'
@@ -14,12 +15,15 @@ const services = () => {
       <section className="service-section-a">
         <h2>Diagnóstico De Cultura De Integridad</h2>
         <div className="container-services-a">
-          <p>El elemento más influyente en el comportamiento de una persona es la 
-            cultura de las organizaciones de las que forma parte. Esta cultura se 
-            conforma de axiomas (creencias) que son juicios o afirmaciones que son 
-            compartidos por una entidad organizacional.</p>
-          <p>Para transformar esta cultura el primer paso es develarla, para después 
-            tomar acciones quirúrgicas y metódicas que permitan el éxito en su transformación.</p>
+          <div className="txt-services-a">
+            <p>El elemento más influyente en el comportamiento de una persona es la 
+              cultura de las organizaciones de las que forma parte. Esta cultura se 
+              conforma de axiomas (creencias) que son juicios o afirmaciones que son 
+              compartidos por una entidad organizacional.</p>
+            <p>Para transformar esta cultura el primer paso es develarla, para después 
+              tomar acciones quirúrgicas y metódicas que permitan el éxito en su transformación.</p>  
+          </div>
+          <VideoPlayer videoSrc="/src/assets/videos/video6.mp4" />
         </div>
         <div className="container-services-b">
           <p>Nuestro instrumento SA-92 permite develar la cultura de una organización en 
